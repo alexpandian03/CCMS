@@ -169,7 +169,7 @@ const Materials = () => {
 
                             <div className="bg-gray-50 px-5 py-3 border-t border-gray-100 flex justify-between items-center">
                                 <a
-                                    href={`http://localhost:5000${item.fileUrl}`}
+                                   href={`https://ccms-backend-hsj9.onrender.com${item.fileUrl}`}
                                     download
                                     target="_blank"
                                     rel="noopener noreferrer"
