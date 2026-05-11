@@ -36,7 +36,7 @@ const Register = () => {
                 alert(result.message);
                 navigate('/coordinator-login');
             } else {
-                navigate('/dashboard');
+                navigate('/');
             }
         } else {
             setError(result.error);
